@@ -1,0 +1,46 @@
+.contact-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .contact-btn {
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+    color: white;
+    background: #222;
+    border: 2px solid #444;
+    transition: 0.3s;
+  }
+  
+  .contact-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, var(--primary), var(--secondary));
+    border-color: transparent;
+    box-shadow: 0 0 12px var(--secondary);
+  }
+  
+  .contact-btn.insta {
+    background: linear-gradient(45deg, #feda75, #d62976, #962fbf, #4f5bd5);
+    color: #fff;
+    border: none;
+  }
+  
+  .contact-btn.github {
+    background: #333;
+    color: #fff;
+    border: none;
+  }
+  
+  .contact-btn.email {
+    background: #0066ff;
+    color: white;
+    border: none;
+  }
+  
+  
